@@ -1,0 +1,40 @@
+.body{
+    background-image: url(design\ image1.jpg);
+    background-color: rgb(150 10 120);
+    background-blend-mode: overlay;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #6b7279;
+    background-color: #6fa584ad;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(13, 3, 26);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(175, 173, 53);
+  }
+  
+  li a.active {
+    color: rgb(2, 6, 31);
+    background-color: #04AA6D;
+  }
+  .parant{
+      text-align: center;
+      font-size: 50px;
+      padding-top: 10px;
+      font-family: "Lucida Console", "Courier New", monospace;
+  }

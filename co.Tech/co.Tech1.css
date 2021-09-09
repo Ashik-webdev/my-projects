@@ -1,0 +1,210 @@
+body, html {
+    height: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgba(39, 37, 37, 0.397);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+@media (max-width: 990px){
+    header{
+        position: unset;
+        z-index: 0;
+        background-color: #7e4658;
+    }
+}
+.header-1 h1 {
+    cursor: pointer;
+}
+@media (max-width: 550px){
+    .header-1 h1{
+        font-size: 30px;
+    }
+}
+@media (max-width: 330px){
+    .header-1 h1{
+        font-size: 20px;
+    }
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-links li a {
+    transition:  all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+    color: #0088a0;
+}
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:  all 0.3s ease 0s;
+}
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+.sec-1{
+    background-image: url("pexels-atbo-245240.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(255 0 47 / 52%);
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (max-width: 910px){
+    .sec-1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 600px){
+    .sec-1{
+        font-size: 10px;
+    }
+}
+@media (max-width: 540px){
+    .sec-1{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+.sec-2{
+    background-image: url("pexels-huseyn-kamaladdin-667838.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f95dd0;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (max-width: 910px){
+    .sec-2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 600px){
+    .sec-2{
+        font-size: 10px;
+    }
+}
+@media (max-width: 540px){
+    .sec-2{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+.sec-3{
+    background-image: url("pexels-pixabay-221537.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00ffff;
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (max-width: 910px){
+    .sec-3{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 600px){
+    .sec-3{
+        font-size: 10px;
+    }
+}
+@media (max-width: 540px){
+    .sec-3{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+.sec-4{
+    background-image: url("pexels-karl-solano-2883049.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(145 0 255 / 44%);
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (max-width: 910px){
+    .sec-4{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 600px){
+    .sec-4{
+        font-size: 10px;
+    }
+}
+@media (max-width: 540px){
+    .sec-4{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+.footer-1{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(80, 77, 77);
+    text-align: center;
+}
+@media (max-width: 600px){
+    .heading-1{
+        font-size: 25px;
+    }
+}
+@media (max-width: 600px){
+    .heading-2{
+        font-size: 20px;
+    }
+}
+@media (max-width: 500px){
+    .footer-12{
+        font-size: xx-small;
+    }
+}

@@ -1,0 +1,31 @@
+.parant{
+    height: 100vh;
+    border: 15px solid gray;
+    display: flex;
+    flex-flow: row wrap;
+}
+.child1{
+     /* width: 150px; */
+    height: 150px;
+    background-color: hotpink;
+    flex: 1 1 150px;
+}
+.child2{
+    width: 150px;
+    height: 150px;
+    background-color: indigo;
+    
+}
+.child3{
+    width: 150px;
+    height: 150px;
+    background-color: lawngreen;
+}
+.body{
+    margin: 0;
+}
+.child4{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(245, 18, 143);
+}

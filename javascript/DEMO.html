@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="inp">
+    <button onclick="display()">click me</button>
+    <h1 id="display-head"></h1>
+
+    <script>
+        function display()
+        {
+            var text=document.getElementById("inp").value 
+            document.getElementById("display-head").innerHTML=text
+
+            if(text=="ashik")
+            alert("as like you")
+        }
+    </script>
+    
+    <input type="text" id="input">
+    <button onclick="display()">click here</button>
+    <p id="display-head"></p>
+    <script>
+        function display()
+        {
+            var text=document.getElementById("input").value
+            document.getElementById("display-head").innerHTML=text
+
+            if(text=="hello..")
+            alert("i am here")
+        }
+    
+    </script>
+</body>
+</html>

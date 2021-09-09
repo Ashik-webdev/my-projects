@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="back.css" type="text/css">
+</head>
+<body class="body">
+    <div class="main-setion">
+        <img src="html-color-codes-color-tutorials-hero.jpg" class="image">
+        <div>
+            <h1 class="heading">Learn and Design</h1>
+            <a href="https://www.w3schools.com/html/default.asp"><button type="button" class="button"><strong><i>html</i></strong></button></a>
+            <a href="https://www.w3schools.com/css/default.asp"><button type="button" class="button"><strong><i>css</i></strong></button></a>
+            <a href="https://www.w3schools.com/js/default.asp"><button type="button" class="button"><strong><i>java script</i></strong></button></a>
+            <a href="https://www.w3schools.com/python/default.asp"><button type="button" class="button"><strong><i>python</i></strong></button></a>
+            <a href="https://www.w3schools.com/java/default.asp"><button type="button" class="button"><strong><i>java</i></strong></button></a>
+            <a href="https://www.w3schools.com/bootstrap4/default.asp"><button type="button" class="button"><strong><i>boot strap</i></strong></button></a>
+            <a href="https://www.w3schools.com/git/default.asp"><button type="button" class="button"><strong><i>git</i></strong></button></a>
+            <a href="https://www.w3schools.com/react/default.asp"><button type="button" class="button"><strong><i>react</i></strong></button></a>
+            <br>
+            <button onclick="show()" class="button"><strong><i>click me</i></strong></button>
+            <script>
+                function show(){
+                    display()
+                    console.log("Button clicked")
+
+                    var a=2;
+                    var r=4
+                    sum=a+r;
+                    console.log("sum=" +sum);
+
+                    let d=2
+                    d=4
+                    console.log(d)
+
+                    const s=4
+
+                    if(s<0){
+                        console.log("number is negative")
+                    }else{
+                        console.log("number is positive")
+                    }
+
+                    for(var i=0;i<=10;i++){
+                        console.log(i)
+                    }
+                    var arr=["apple","orange","pinapple",98]
+                    console.log(arr)
+                    console.log(arr[0])
+
+                    var person=[{
+                        name:"ashik",
+                        place:"palakkad",
+                        age:19,
+                    },{
+                        name:"akash",
+                        place:"palakkad",
+                        age:18,
+                    }]
+                    console.log(person[1])
+                    console.log(person[0])
+                    console.log("name:" +person[1].name)
+                    console.log("age:" +person[1].age)
+                    console.log("place:" +person[1].place)
+                    console.log("name:" +person[0].name)
+                    console.log("age:" +person[0].age)
+                    console.log("place:" +person[0].place)
+                }
+                function display(){
+                    console.log("hey")
+                    
+                }
+            </script>
+        </div>
+    </div>
+    
+</body>
+</html>

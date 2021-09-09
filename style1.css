@@ -1,0 +1,31 @@
+.content{
+    color: rgb(71, 66, 63);
+    background: rgb(8, 10, 12);
+}
+
+#noti1{
+    color: rgb(110, 110, 37);
+}
+
+#noti2{
+    color: rgb(70, 62, 54);
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background: rgb(76, 96, 117);
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-left: 55px;
+    padding-top: 80px;
+    border: 5px solid;
+    border-color: black;
+}
+
+.inner-div{
+    width: 100px;
+    height: 50px;
+    background: blue;
+}
+

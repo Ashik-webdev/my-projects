@@ -1,0 +1,28 @@
+.header{
+    width: 100%;
+    background: orange;
+    height: 150px;
+}
+.left-section{
+    width: 349PX;
+    float: left;
+    height: 400px;
+    background: orchid;
+}
+.right-section{
+    width: 1000PX;
+    float: left;
+    height: 400px;
+    background:rgb(48, 0, 48);
+}
+.footer{
+    height: 150px;
+    width: 1349px;
+    background: rgb(245, 0, 0);
+}
+.content{
+    height: 400px;
+}
+body{
+    margin: 0px;
+}

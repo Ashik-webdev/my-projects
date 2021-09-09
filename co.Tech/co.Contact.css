@@ -1,0 +1,101 @@
+body, html {
+    height: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgba(39, 37, 37, 0.397);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+@media (max-width: 990px){
+    header{
+        position: unset;
+        z-index: 0;
+        background-color:  #aaeac0;
+    }
+}
+.header-1 h1 {
+    cursor: pointer;
+}
+@media (max-width: 550px){
+    .header-1 h1{
+        font-size: 30px;
+    }
+}
+@media (max-width: 330px){
+    .header-1 h1{
+        font-size: 20px;
+    }
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-links li a {
+    transition:  all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+    color: #0088a0;
+}
+.sec-1{
+    background-image: url("pexels-max-vakhtbovych-5998034.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0 255 90 / 53%);
+    background-blend-mode: luminosity;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (max-width: 950px){
+    .sec-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+.img-1{
+    height: 30px;
+    width: 40px;
+}
+.img-2{
+    height: 40px;
+    width: 40px;
+}
+.img-3{
+    height: 40px;
+    width: 40px;
+}
+.footer-1{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(80, 77, 77);
+    text-align: center;
+}
+@media (max-width: 500px){
+    .footer-12{
+        font-size: xx-small;
+    }
+}

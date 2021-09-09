@@ -1,0 +1,70 @@
+.main-body{
+    width: 100%;
+    height: 623px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(54,10,107,1) 9%, rgba(99,10,88,1) 32%, rgba(210,16,153,1) 50%, rgba(20,101,139,1) 82%, rgba(4,147,176,1) 100%);
+}
+.left-section{
+    width: 50%;
+    padding-left: 350px;
+    padding-top: 100px;
+    float: left;
+}
+body{
+    margin: 0%;
+}
+.right-section{
+    width: 25%;
+    height: 405px;
+    float: left;
+    margin-top: -433px;
+    margin-left: 650px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: transparent;
+    border: 5px;
+    border-color: thistle;
+    border-radius: 1px;
+    padding: 10px 0
+}
+.name{
+    width: 300px;
+    height: 30px;
+    font-size: 14px;
+    background: #fafafa;
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
+    border-style: solid;
+    text-align: center;
+}
+.password{
+    width: 300px;
+    height: 30px;
+    font-size: 14px;
+    background: #fafafa;
+    border: 0;
+    flex: 1 0 auto;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    text-align: center;
+}
+.insta{
+    text-align: center;
+}
+
+

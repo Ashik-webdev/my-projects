@@ -1,0 +1,32 @@
+.calc{
+    width: 500px;
+    height: 600px;
+    background-image: url(pexels-photo-1089438.jpeg4.jpeg);
+    margin-left: 350px;
+}
+#screen{
+    width: 420px;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 20px;
+    height: 70px;
+    pointer-events: none;
+}
+.btn{
+    width: 75px;
+    height: 60px;
+    margin-left: 37px;
+    margin-top: 40px;
+    color: rgb(0, 82, 0);
+    font-size: xx-large;
+    background-color: palegreen;
+}
+.nil{
+    width: 200px;
+    height: 50px;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-color: palegreen;
+    color: rgb(0, 82, 0);
+    font-size: xx-large;
+}

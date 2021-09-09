@@ -1,0 +1,18 @@
+.section1{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    text-align: left;
+    font-size: xx-large;
+}
+
+@media (max-width: 400px) {
+    .section1{
+       font-size: 14px;
+       padding: 10px;
+       text-align: center;
+    }
+}
+.main-section{
+    padding-left: 300px;
+}
