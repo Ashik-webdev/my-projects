@@ -25,9 +25,13 @@ header{
 }
 @media (max-width: 990px){
     header{
-        position: unset;
-        z-index: 0;
-        background-color: #7e4658;
+        position: fixed;
+        z-index: 1;
+    }
+}
+@media (max-width: 990px){
+    .gh1{
+        margin-top: 80px;
     }
 }
 .header-1 h1 {
@@ -35,7 +39,7 @@ header{
 }
 @media (max-width: 550px){
     .header-1 h1{
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 @media (max-width: 330px){
@@ -195,7 +199,8 @@ button:hover {
 }
 @media (max-width: 600px){
     .heading-1{
-        font-size: 25px;
+        font-size: 18px;
+        margin-top: 30px;
     }
 }
 @media (max-width: 600px){
