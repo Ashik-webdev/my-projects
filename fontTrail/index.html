@@ -8,71 +8,38 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <section>
-    <div class="img-slider">
-      <div class="slide active">
-        <img src="pexels-max-vakhtbovych-5998120.jpg" alt="">
-        <div class="info">
-          <h2>Catloc</h2>
-          <p>If you want a golden rule that will fit everything, this is it: Have nothing in your houses that you do not know to be useful or believe to be beautiful.</p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="pexels-karl-solano-2883049.jpg" alt="">
-        <div class="info">
-          <h2>Catloc</h2>
-          <p>If you want a golden rule that will fit everything, this is it: Have nothing in your houses that you do not know to be useful or believe to be beautiful.</p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="pexels-max-vakhtbovych-6058444.jpg" alt="">
-        <div class="info">
-          <h2>Catloc</h2>
-          <p>If you want a golden rule that will fit everything, this is it: Have nothing in your houses that you do not know to be useful or believe to be beautiful.</p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="pexels-felipe-hueb-2747901.jpg" alt="">
-        <div class="info">
-          <h2>Catloc</h2>
-          <p>If you want a golden rule that will fit everything, this is it: Have nothing in your houses that you do not know to be useful or believe to be beautiful.</p>
-        </div>
-      </div>
-      <div class="navigation">
-        <div class="btn active"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
+<section class="section-3">
+  <div class="img-slider">
+    <div class="slide active">
+      <img src="img-1.jpg">
+      <div class="info">
+        <h2>Catlock </h2>
+        <p>If a project is intense, valid, and has a powerful idea, its imperfections will be in the background</p>
       </div>
     </div>
-  </section>
+    <div class="slide">
+      <img src="img-2.jpg">
+      <div class="info">
+        <h2>Catlock </h2>
+        <p>If a project is intense, valid, and has a powerful idea, its imperfections will be in the background</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="img-3.jpg">
+      <div class="info">
+        <h2>Catlock </h2>
+        <p>If a project is intense, valid, and has a powerful idea, its imperfections will be in the background</p>
+      </div>
+    </div>
+    <div class="navigation">
+      <div class="btn active"></div>
+      <div class="btn"></div>
+      <div class="btn"></div>
+    </div>
+  </div>
+</section>
 
 
-
-  <script type="text/javascript">
-   var slides = document.querySelectorAll('.slide');
-   var btns = document.querySelectorAll('.btn');
-   let currentSlide = 1;
-
-    // javascript for image slider manual navigation
-    var manualNav = function(manual){
-    slides.forEach((slide) => {
-      slide.classList.remove('active');
-
-      btns.forEach((btn) => {
-        btn.classList.remove('active');
-      })
-    })
-    slides[manual].classList.add('active');
-    btns[manual].classList.add('active');
-  } 
-
-  btns.forEach((btn, i) => {
-    btn.addEventListener("click", () => {
-      manualNav(i);
-      currentSlide = i;
-    })
-  });
-  </script>
+<script src="font.js"></script>
 </body>
 </html>

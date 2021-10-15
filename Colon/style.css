@@ -292,7 +292,7 @@ label {
     font-size: 25px;
     color: #fff;
 }
-img{
+.img-1{
     transform: scale(1.5, 1.5);
     -webkit-animation-name: zoomin;
     -webkit-animation-duration: 40s;
@@ -351,5 +351,195 @@ img{
     
 }
 
+/* third section black background */
+.section-3{
+    width: 100%;
+    height: 20%;
+    background: black;
+}
+div.container-2
+{
+    font-family: Raleway;
+    margin: 0 auto;
+	padding: 3em 3em;
+	text-align: center;
+}
 
+div.container-2 a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 20px Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
 
+div.topBotomBordersOut a:before
+{
+    top: 0px;
+    transform: translateY(10px);
+}
+
+div.topBotomBordersOut a:after
+{
+    bottom: 0px;
+    transform: translateY(-10px);
+}
+
+div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+/* third section responsive */
+@media (max-width: 1050px){
+    div.container-2 a{
+        font: 25px Raleway;
+        padding: 5px 5px;
+    }
+    .section-3{
+        height: 20%;
+    }
+    div.container-2{
+        padding: 3em 4em;
+    }
+}
+@media (max-width: 800px){
+    div.container-2 a{
+        font: 20px Raleway;
+        padding: 5px 5px;
+    }
+    .section-3{
+        height: 15%;
+    }
+    div.container-2{
+        padding: 4em 3em;
+    }
+}
+@media (max-width: 550px){
+    div.container-2 a{
+        font: 13px Raleway;
+        padding: 3px 3px;
+        margin: 0px 5px;
+    }
+    div.container-2{
+        padding: 3em 3em;
+    }
+
+}
+@media (max-width: 450px){
+    div.container-2 a{
+        font: 13px Raleway;
+        padding: 2px 2px;
+        margin: 0px 2px;
+    }
+    div.container-2{
+        padding: 3em 1em;
+    }
+    .section-3{
+        height: 15%;
+    }
+
+}
+@media (max-width: 450px){
+    div.container-2 a{
+        font: 13px Raleway;
+        padding: 2px 2px;
+        margin: 0px 2px;
+    }
+    div.container-2{
+        padding: 3em 1em;
+    }
+    .section-3{
+        height: 15%;
+    }
+}
+@media (max-width: 360px){
+    div.container-2 a{
+        font: 13px Raleway;
+        padding: 2px 2px;
+        margin: 0px 2px;
+    }
+    div.container-2{
+        padding: 2em 1em;
+    }
+    .section-3{
+        height: 15%;
+    }
+}
+@media (max-width: 320px){
+    div.container-2 a{
+        font: 10px Raleway;
+        padding: 2px 2px;
+        margin: 0px 2px;
+    } 
+    .section-3{
+        width: 100%;
+        height: 15%;
+        background: black;
+    }
+    div.container-2{
+        padding: 2em 0em;
+    }
+
+}
+
+/* section-4 about */
+.section-4{
+    height: 100%;
+    width: 100%;
+    background-image: url("sec-45.jpg");
+    background-color: rgba(39, 54, 47, 0.637);
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+/* section-4 responsive */
+@media (max-width: 400px){
+    .section-4 h2{
+        font-size: 15px;
+    }
+}
+
+/* footer section */
+.footer{
+    width: 100%;
+    height: 10%;
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* responsive footer */
+@media (max-width: 1130px){
+    .footer p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 510px){
+    .footer p{
+        font-size: 13px;
+    }
+    .footer{
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+}
